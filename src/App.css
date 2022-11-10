@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.nav-menu {
+  width: 100vw;
+}
+
+.padding-for-home {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.alert-for-pwa {
+  /* border: 3px solid black; */
+  display: block;
+}
+
+.RouterLink {
+  text-decoration: none;
+  color: black;
+}
