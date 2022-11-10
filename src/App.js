@@ -49,7 +49,7 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <div className="content">
-          <Router>
+          <Router basename="/std10">
             <NavBar />
             <Routes>
               <Route path="/" element={<Home />} />
