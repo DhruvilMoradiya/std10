@@ -20,7 +20,8 @@ function MCh1() {
     "C7nPseCHV3w",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
+  const [isloading, setIsloading] = useState(true);
 
   const handleChange = (event) => {
     setLecNo(event.target.value);
@@ -70,7 +71,15 @@ function MCh1() {
             height: { xs: "225px", md: "320px" },
           }}
         >
-          <ReactPlayer width="sm" height="100%" url={ytURL} controls alt={""} />
+          {isloading ? <p>Loading....</p> : null}
+          <ReactPlayer
+            onReady={() => setIsloading(false)}
+            width="sm"
+            height="100%"
+            url={ytURL}
+            controls
+            alt={""}
+          />
         </Container>
       </div>
     </>

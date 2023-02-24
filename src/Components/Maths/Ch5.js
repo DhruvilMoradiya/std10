@@ -24,7 +24,7 @@ function MCh5() {
     "G3kY3-SEiXc",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

@@ -25,7 +25,7 @@ function MCh8() {
     "9RzSg5lt9Ew",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

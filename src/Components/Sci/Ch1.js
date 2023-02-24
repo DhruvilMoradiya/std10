@@ -20,7 +20,7 @@ function SCh1() {
     "Yuu1Mp_2dps",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

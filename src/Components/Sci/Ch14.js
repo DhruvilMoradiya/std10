@@ -21,7 +21,7 @@ function SCh14() {
     "ux2LRYQs8hg",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

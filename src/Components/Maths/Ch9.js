@@ -23,7 +23,7 @@ function MCh9() {
     "Lcp8D0Aw2mw",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

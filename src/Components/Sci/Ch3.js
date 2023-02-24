@@ -26,7 +26,7 @@ function SCh3() {
     "ipuNrq-BlS0",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

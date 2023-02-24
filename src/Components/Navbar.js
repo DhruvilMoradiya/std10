@@ -102,6 +102,7 @@ function NavBar() {
             >
               {pages.map((page) => (
                 <Link
+                  key={page}
                   style={{ textDecoration: "none", color: "Black" }}
                   to={`/${page}`}
                 >
@@ -125,6 +126,7 @@ function NavBar() {
           >
             {pages.map((page) => (
               <Link
+                key={page}
                 style={{ textDecoration: "none", color: "white" }}
                 to={`/${page}`}
               >

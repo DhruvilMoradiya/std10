@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 function MCh11() {
   const URLs = ["kQkqnDrckmE", "AbMRxBRrVIg", "58BM9sRYzKk", "TlHoXqBUMTA"];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

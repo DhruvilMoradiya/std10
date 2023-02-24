@@ -24,7 +24,7 @@ function SCh13() {
     "kysrpT_HRWA",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);

@@ -20,7 +20,7 @@ function SCh5() {
     "vx3Z7UNDVO8",
   ];
 
-  const [lecNo, setLecNo] = useState("");
+  const [lecNo, setLecNo] = useState("1");
 
   const handleChange = (event) => {
     setLecNo(event.target.value);
